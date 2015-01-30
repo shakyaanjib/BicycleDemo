@@ -9,7 +9,9 @@ public class BicycleDemo {
         Bicycle bike1 = new Bicycle();
         Bicycle bike2 = new Bicycle();
         Bicycle bike3 = new Bicycle();
-        
+        Bicycle bike4 =new Bicycle();
+        Bicycle bike5 =new Bicycle();
+
 
         // Invoke methods on 
         // those objects
@@ -26,9 +28,17 @@ public class BicycleDemo {
         bike2.changeGear(3);
         bike2.printStates();
         
+        bike3.changeGear(4);
         bike3.changeGear(3);
         bike3.printStates();
         
+        bike4.changeGear(4);
+        bike4.changeGear(3);
+        bike4.printStates();
+        
+        bike5.changeGear(4);
+        bike5.changeGear(3);
+        bike5.printStates();
     }
 
 }
