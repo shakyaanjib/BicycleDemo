@@ -28,6 +28,7 @@ public class BicycleDemo {
         
         bike3.changeGear(3);
         bike3.printStates();
+        
     }
 
 }
